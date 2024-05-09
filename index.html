@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet"/>
+    <!--fontawsome-->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/> -->
+    <link href="css/style1.css" rel="stylesheet"/>
+    <!-- <script src="js/bootstrap.bundle.js" rel="javascript"></script> -->
+    <script src="js/script.js" rel="javascript" defer="true"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>my portfolio</title>
+</head>
+<body>
+    
+<div class="container">
+            <section id="header">
+                <div class="header-top">
+                      <div class="logo">
+                        <a href="#"><span>P</span>ortfolio</a>
+                      </div>
+                     <div class="nav-menu">
+                      <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#testimonial">services</a></li>
+                        <li><a href="#contact">Cantact Us</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                     </ul>
+                     <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                     </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="bottom-left">
+                        <h1 class="name">NIDHI<span>DUBEY</span></h1>
+                        <h3 class="profession">-web developer</h3>
+                        <p class="short-desc">I have been working since 2023. I am proficent at UI design,
+                            & web development.
+                            </p>
+                             <a href="images/NidhiCV (2) (1).pdf" class="btn-cv" target="_blank" download>Download CV</a>
+                    </div>
+                       <div class="bottom-right">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                       </div>
+                    </div>
+            </section>
+           <!--about section-->
+           <section id="about">
+            <div class="about-left">
+                <img src="images/4.jpg" alt="no images"/>
+            </div>
+            <div class="about-right">
+                <div class="section-title">
+                    <h2 class="sub-title">About Me</h2>
+                    <h3 class="title">Web Developer</h3>
+                </div>
+                <p class="desc">
+                   My Name is<span style="color: #feca22;"> Nidhi Dubey </span>and I belong to <span style="color: #feca22;"> Ballia.</span>I aspire to become a success<span style="color: #feca22;">  Full Stack developer</span>
+                   Coming to My Parents profession ,My Father is a<span style="color: #feca22;">  Mechanical Engineer</span> and My mother is a <span style="color: #feca22;"> HomeMaker</span> and I have one brother and Two sister including me.
+                   Talking about My Education Qualification ,I have Completed 10th and 12th from CBSE Board. and I have completed <span style="color: #feca22;"> Diploma in IT(Information Technology)</span>
+                   from<span style="color: #feca22;">  GOVT.GIRL'S POLYTECHNIC BALLIA.</span> I would also like to share My Hobbies which include listening to musics and doing some Art and craft and 
+                  I believe My strength are i am hard working, Discipline and Adoptable girl.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">
+                      skills
+                    </p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li>
+                        <span>UI/UX Design</span><br/>
+                        Designing web/App interfaces
+                    </li>
+                    <li>
+                        <span>Web development</span><br/>
+                        web App development
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                      <li>
+                          <span>2023-2024</span><br/>
+                          Designing web/App interfaces/ web App development
+                      </li>
+                      <li>
+                          <span>2023-2024</span><br/>
+                          I have Completed Apprenticeship
+                          training on .net and PHP duration 8
+                          Months from Augest 2023 to March
+                          2024 from Softpro India Pvt. Ltd.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents active-tab" id="education">
+                    <ul>
+                      <li>
+                          <span>2020-2023</span><br/>
+                          Diploma in IT(Information Technology) form<br/>
+                          GOVT. GIRL'S POLYTECHNIC BALLIA
+                      </li>
+                      <li>
+                          <span>2019-2020</span><br/>
+                          Intermediate (CBSE) | ST. MICHAELS SCHOOL<br/>
+                          BARIHARA BERUWARA BALLIA UP
+                      </li>
+                      <li>
+                          <span>2017-2018</span><br/>
+                           Matriculation (CBSE) | ST. MICHAELS SCHOOL<br/>
+                           BARIHARA BERUWARA BALLIA UP
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+
+           </section>
+       
+        <!--services section-->
+        <section id="service">
+        <div class="section-title">
+            <h2 class="sub-title">my skills</h2>
+            <h3 class="title">Abrief of offerting services</h3>
+        </div> 
+        <div class="services">
+
+       
+             <div>
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                <h2>HTML</h2>
+                <p class="des">HTML stands for Hyper Text Markup Language. HTML is the standard markup language
+                     for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements.
+                    
+                    </p> 
+                     </div>
+                     <div>
+                        <i class=" fa-solid fa-c"></i>
+                        <h2>CSS</h2>
+                        <p class="des">Cascading Style Sheets, is a simple design language intended to transform the presentation of a Web Pages as well as many 
+                            ostensibly nonweb environments.CSS handles the look and feel part of a web page.
+                            it provides powerful control over the presentation of an HTML document. 
+                           </p> 
+                             </div>
+                    <div>
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h2>Bootstrap</h2>
+                        <p class="des"> Bootstrap is a free, open source front-end development framework for the creation of websites and web apps.
+                             Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p> 
+                             </div> 
+                             <div>
+                                <i class="fa-brands fa-js"></i>
+                                <h2>JavaScript</h2>
+                                <p class="des">
+                                    JavaScript is a scripting language that enables you to create dynamically updating content, control
+                                     multimedia, animate images, and pretty much everything else. </p> 
+                                  
+                                    </div>
+                                    <div>
+                                        <i class="fa-brands fa-php"></i>
+                                        <h2>PHP</h2>
+                                        <p class="des">PHP (recursive acronym for PHP: Hypertext Preprocessor) 
+                                            is a widely-used open source general-purpose scripting language that is especially suited for web
+                                             development and can be embedded into HTML.</p> 
+                                             </div>
+                                            
+                                             <div>
+                                                <i class="fa-solid fa-c"></i>
+                                                <h2>C Language</h2>
+                                                <p class="des">C is a procedural language that provides no support for objects and classes. C++ is a combination of OOP and procedural programming languages.
+                                                     C has 32 keywords. C supports built-in data types.</p> 
+                                                     </div>
+                                                     <div>
+                                                        <i class=" fa fa-camera-retro"></i>
+                                                        <h2>.Net</h2>
+                                                        <p class="des">The .NET Framework is a software development framework developed by Microsoft that
+                                                             provides a runtime environment and a set of libraries and tools for building and running applications
+                                                              on Windows operating systems. The framework includes a variety of
+                                                             programming languages, such as C#, F#, and Visual Basic.</p> 
+                                                             </div>
+                                                          
+                                                                     <div>
+                                                                        <i class="fa fa-database"></i>
+                                                                        <h2>Database(MYSQL)</h2>
+                                                                       
+                                                                        <p class="des">A database is an organized collection
+                                                                             of structured information, or data, typically stored electronically in a computer system.
+                                                                              A database is usually controlled by a database management system (DBMS).</p> 
+                                                                             </div>          
+                                                                     
+             </div>  
+        </section>
+        <!--portfolio scetion-->
+        <section id="portfolio">
+           <div class="section-title">
+            <h2 class="sub-title"> My project</h2>
+            <h3 class="title">Awesome Works</h3>
+           </div>
+           <div class="project-list">
+            <div class="project">
+                <img src="images/weth.png" alt="no images"/>
+                <div class="layer">
+                    <h2>Weather App</h2>
+                    <p>
+                        They are temperature, atmospheric pressure, wind and
+                         humidity Together, these components describe the weather at any given time.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/amazon.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>Amazon cart</h2>
+                    <p>
+                        The shopping cart is a temporary storage area for items that you want to purchase on Amazon.
+                    </p>
+                    <a href="amazon kart/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/todolist.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>TO DO List</h2>
+                    <p>
+                        Your to-do list will contain the tasks you'd like to accomplish each day
+                    </p>
+                    <a href="todo list/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+              <!---->
+              <div class="project">
+                <img src="images/resto.png" alt="no images"/>
+                <div class="layer">
+                    <h2>Restaurant</h2>
+                    <p>
+                        A restaurant is a place where you can eat a meal and pay for it. 
+                    </p>
+                    <a href="restorent/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+           <!-- <div class="project">
+                <img src="images/youtube.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>project title here</h2>
+                    <p>
+                        lrem ipsum dolotetreg qewr wrweert qwrwe wrweert
+                    </p>
+                    <a href="resort/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        
+            <div class="project">
+                <img src="images/youtube.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>project title here</h2>
+                    <p>
+                        lrem ipsum dolotetreg qewr wrweert qwrwe wrweert
+                    </p>
+                    <a href="restorent/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/youtube.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>project title here</h2>
+                    <p>
+                        lrem ipsum dolotetreg qewr wrweert qwrwe wrweert
+                    </p>
+                    <a href="youtube/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        -->
+        <div class="project">
+            <img src="images/analg.JPG" alt="no images"/>
+            <div class="layer">
+                <h2>Analog ClOck</h2>
+                <p>
+                    An analog clock is a tool for reading the time of day.
+                </p>
+                <a href="ANALOG CLOCK/index1.html"><i class="fa fa-external-link"></i></a>
+            </div>
+        </div>
+            <div class="project">
+                <img src="images/job.png" alt="no images"/>
+                <div class="layer">
+                    <h2>project title here</h2>
+                    <p>
+                        A Website where people who need jobs can find jobs and companies
+looking for job seekers can find the perfect employees.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+           
+              <!---->
+             
+           
+            <div class="project">
+                <img src="images/spotfy.JPG" alt="no images"/>
+                <div class="layer">
+                    <h2>SPOTIFY</h2>
+                    <p>
+                        Spotify, audio streaming service that offers users access to music tracks, podcasts, and other
+                         media through a subscription model.
+                    </p>
+                    <a href="SPOTIFY/index.html"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+           </div>
+        </section>
+        <!--testimonial section-->
+        <section id="testimonial">
+         <div class="section-title">
+            <h2 class="sub-title">My services</h2>
+            <h3 class="title">Abrief of offerting services</h3>
+         </div>
+         <div class="testimonial-list">
+            <div class="review">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review-text">
+                    A well-designed website is a powerful marketing and communication tool that helps build trust and generate leads.
+                </p>
+                <div class="review-by">
+                    <div class="img">
+                        <img src="images/4.jpg" alt="no image"/>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Nidhi Dubey</h3>
+                        <h5 class="resignation">Web Developer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review-text">
+                    A dedicated CMS designed to the specific needs of your business will save time and money by optimizing internal workflows.
+                </p>
+                <div class="review-by">
+                    <div class="img">
+                        <img src="images/4.jpg" alt="no image"/>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Neha Gupta</h3>
+                        <h5 class="resignation">Web Developer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review-text">
+                    Web applications can reach a global audience. They're interactive and engaging, so can easily hold users' attention.
+                </p>
+                <div class="review-by">
+                    <div class="img">
+                        <img src="images/4.jpg" alt="no image"/>
+                    </div>
+                    <div class="info">
+                        <h3 class="name">john Doe</h3>
+                        <h5 class="resignation">Web Developer</h5>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
+        <!--contact section-->
+        <section id="contact">
+            <div class="section-title">
+                <h2 class="sub-title">contact</h2>
+                <h3 class="title">Get in Touch</h3>
+            </div>
+            <div class="content">
+                <div class="contact-left">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="you name" required/>
+                        <input type="email" name="email" id="email" placeholder="you email" required/>
+                        <textarea name="message" id="massage" rows="6" placeholder="your massage"></textarea>
+                        <button type="submit">Send message<i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+                <div class="vl"></div>
+                <div class="contact-right">
+                    <div class="col address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info">
+                            <h2 class="title">Address</h2>
+                            <p>Jankipuram Lucknow</p>
+                        </div>
+                    </div>
+                    <div class="col phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="info">
+                            <h2 class="title">Phone</h2>
+                            <p>9794948809</p>
+                        </div>
+                    </div>
+                    <div class="col email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="info">
+                            <h2 class="title">Email</h2>
+                            <p>nidhidubey1445@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col website">
+                        <i class="fa-solid fa-globe"></i>
+                        <div class="info">
+                            <h2 class="title">Website</h2>
+                            <p>www.domain.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="copyright">
+                copyright &copy; portfolio | Made with<i class="fa-solid fa-heart"></i>
+                By <a href="#">Nidhi Dubey</a>
+            </div>
+        </section>
+    </div>
+  
+</body>
+</html>
